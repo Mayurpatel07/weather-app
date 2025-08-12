@@ -1,0 +1,29 @@
+:root {
+  --bg-light: #e0f7fa;
+  --bg-dark: #1e1e2f;
+  --text-light: #222;
+  --text-dark: #f5f5f5;
+  --card-light: #ffffffaa;
+  --card-dark: #2a2a3acc;
+  --accent: #00bcd4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.5s, color 0.5s;
+}
+
+button {
+  cursor: pointer;
+}

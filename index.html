@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mayur's Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌤️ Mayur's Weather Dashboard</h1>
+      <input type="text" id="cityInput" placeholder="Search City (e.g., Pune)" />
+      <button onclick="getWeather()">Search</button>
+      <button onclick="getLocation()">📍 Use My Location</button>
+    </header>
+
+    <div id="weatherResult"></div>
+
+    <section id="forecastContainer"></section>
+
+    <section id="hourlyForecast">
+      <h2>Hourly Forecast</h2>
+      <canvas id="hourlyChart"></canvas>
+    </section>
+  </div>X 
+
+  <footer>
+    <p>Designed & Developed by Mayur Patel © 2025</p>
+    <button onclick="toggleTheme()">🌓 Toggle Theme</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
