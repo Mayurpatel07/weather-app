@@ -5,7 +5,7 @@ This is a beautiful, easy-to-use weather application that shows you the current 
 
 ![Weather Dashboard Screenshot](https://via.placeholder.com/800x450.png?text=Weather+Dashboard+Screenshot)
 
-## What can this app do?
+## What can this app do.
 
 ### Main Features
 - **Search for any city** - Type a city name to get its weather
